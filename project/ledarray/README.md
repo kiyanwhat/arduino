@@ -1,7 +1,6 @@
 
-
 Some code that uses a 2D array to selectively turn on specific pixels.
-'''
+```c
 boolean view[7][7];
 
 void setup() {
@@ -66,4 +65,4 @@ void loop() {
   on(random(0, 7), random(0, 7));
   output(1000);
 }
-'''
+```
