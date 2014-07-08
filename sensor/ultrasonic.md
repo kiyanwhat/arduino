@@ -78,6 +78,8 @@ long microsecondsToCentimeters(long microseconds) {
 }
 ```
 
+## Use the `getDistance` function
+
 To measure distance, use the `getDistance()` function.
 ```c
 long d = getDistance();
