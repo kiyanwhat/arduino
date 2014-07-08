@@ -23,7 +23,7 @@ pinMode(trigPin, OUTPUT);
 pinMode(echoPin, INPUT);
 ```
 
-## Setup your `loop`
+## Setup everything else
 
 Add these utility functions to your sketch, preferably at the bottom.
 
