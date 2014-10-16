@@ -15,7 +15,9 @@ Connect three wires to the Arduino board. The first two, red and black, connect 
 When the pushbutton is open (unpressed) there is no connection between the two legs of the pushbutton, so the pin is connected to ground (through the pull-down resistor) and we read a LOW. When the button is closed (pressed), it makes a connection between its two legs, connecting the pin to 5 volts, so that we read a HIGH.
 You can also wire this circuit the opposite way, with a pullup resistor keeping the input HIGH, and going LOW when the button is pressed. If so, the behavior of the sketch will be reversed, with the LED normally on and turning off when you press the button.
 If you disconnect the digital i/o pin from everything, the LED may blink erratically. This is because the input is "floating" - that is, it will randomly return either HIGH or LOW. That's why you need a pull-up or pull-down resistor in the circuit.
-
+<br>
+<img src= "http://arduino.cc/en/uploads/Tutorial/button_schem.png"></img>
+<br>
 <b>Code</b>
 ```c
 /*
