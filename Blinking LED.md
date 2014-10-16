@@ -1,4 +1,4 @@
-Blink
+<b>Blink</b>
 
 This example shows the simplest thing you can do with an Arduino to see physical output: it blinks an LED.
 
@@ -7,12 +7,14 @@ Hardware Required
 Arduino Board
 LED
 
-Circuit
+<b>Circuit</b>
 
 To build the circuit, attach a 220-ohm resistor to pin 13. Then attach the long leg of an LED (the positive leg, called the anode) to the resistor. Attach the short leg (the negative leg, called the cathode) to ground. Then plug your Arduino board into your computer, start the Arduino program, and enter the code below.
 Most Arduino boards already have an LED attached to pin 13 on the board itself. If you run this example with no hardware attached, you should see that LED blink.
-
-Code
+<br>
+<img src= "http://arduino.cc/en/uploads/Tutorial/ExampleCircuit_bb.png"></img><br>
+<img src= "http://arduino.cc/en/uploads/Tutorial/ExampleCircuit_sch.png"</img><br>
+<b>Code</b>
 
 In the program below, the first thing you do is to initialize pin 13 as an output pin with the line
 pinMode(13, OUTPUT);
