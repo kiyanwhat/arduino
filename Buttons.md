@@ -8,7 +8,7 @@ momentary button or switch
 breadboard
 hook-up wire
 
-Circuit
+Circuit<br>
 <img src= "http://arduino.cc/en/uploads/Tutorial/button.png"></img>
 
 Connect three wires to the Arduino board. The first two, red and black, connect to the two long vertical rows on the side of the breadboard to provide access to the 5 volt supply and ground. The third wire goes from digital pin 2 to one leg of the pushbutton. That same leg of the button connects through a pull-down resistor (here 10 KOhms) to ground. The other leg of the button connects to the 5 volt supply.
