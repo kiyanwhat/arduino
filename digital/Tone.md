@@ -16,6 +16,7 @@ hook-up wire
 Connect one terminal of your speaker to digital pin 8 through a 100 ohm resistor. Connect the other terminal to ground.
 <br>
 <img src="http://arduino.cc/en/uploads/Tutorial/speaker_schem.png"></img>
+<br>
 <b>Code</b>
 
 The code below uses an extra file, pitches.h. This file contains all the pitch values for typical notes. For example, NOTE_C4 is middle C. NOTE_FS4 is F sharp, and so forth. This note table was originally written by Brett Hagman, on whose work the tone() command was based. You may find it useful for whenever you want to make musical notes.
