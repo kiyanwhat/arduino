@@ -1,8 +1,8 @@
-<b>Button State Change Detection (Edge Detection)<b>
+<b>Button State Change Detection (Edge Detection)</b>
 
 Once you've got a pushbutton working, you often want to do some action based on how many times the button is pushed. To do this, you need to know when the button changes state from off to on, and count how many times this change of state happens. This is called state change detection or edge detection.
 
-<b>Hardware Required<b>
+<b>Hardware Required</b>
 
 Arduino Board
 momentary button or switch
@@ -10,7 +10,7 @@ momentary button or switch
 breadboard
 hook-up wire
 
-<b>Circuit<b>
+<b>Circuit</b>
 <br>
 <img src="http://arduino.cc/en/uploads/Tutorial/button.png"></img>
 <br>
@@ -23,7 +23,7 @@ If you disconnect the digital i/o pin from everything, the LED may blink erratic
 The sketch below continually reads the button's state. It then compares the button's state to its state the last time through the main loop. If the current button state is different from the last button state and the current button state is high, then the button changed from off to on. The sketch then increments a button push counter.
 The sketch also checks the button push counter's value, and if it's an even multiple of four, it turns the LED on pin 13 ON. Otherwise, it turns it off.
 
-<b>Code<b>
+<b>Code</b>
 ```c
 /*
   State change detection (edge detection)
